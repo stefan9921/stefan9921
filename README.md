@@ -14,9 +14,9 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.1h | 3.6h | 23.2h | 42.2h |
+| User AI session hours | 0.1h | 3.6h | 21.9h | 42.2h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.1h | 5.1h | 82.2h | 126.5h |
+| AI concurrency hours | 0.1h | 5.1h | 80.6h | 126.5h |
 | Interactive sessions | 1 | 6 | 54 | 102 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -28,14 +28,14 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-7 | 3,259 | 5K | 2.5M | 430.5M | $1,275.31 | $5,812.35 | $0.00 |
+| claude-opus-4-7 | 3,152 | 5K | 2.5M | 414.7M | $1,233.00 | $5,599.73 | $0.00 |
 | gpt-5.5 | 1,423 | 9.2M | 387K | 122.4M | $62.22 | $330.54 | $281.20 |
 | gpt-5.4 | 86 | 348K | 11K | 1.9M | $1.78 | $3.64 | $6.81 |
-| **Total** | **4,768** | **9.6M** | **2.9M** | **554.9M** | **$1,339.31** | **$6,146.53** | **$288.01** |
+| **Total** | **4,661** | **9.6M** | **2.9M** | **539.1M** | **$1,297.00** | **$5,933.92** | **$288.01** |
 
-_590.7M total tokens processed. 93.9% cache hit rate._
+_574.1M total tokens processed. 93.9% cache hit rate._
 
-_$6,434.54 total saved ($6,146.53 caching + $288.01 model routing vs all-Opus)._
+_$6,221.93 total saved ($5,933.92 caching + $288.01 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.9% of tokens are cache reads, where price differences between models are small._
 
@@ -78,5 +78,5 @@ _Model savings are modest because ~94.6% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-25 11:45 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-25 15:21 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
