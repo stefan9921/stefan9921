@@ -14,10 +14,10 @@
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 6.6h | 18.8h | 48.8h |
+| User AI session hours | 0.0h | 6.6h | 18.5h | 48.8h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 8.7h | 34.2h | 135.2h |
-| Interactive sessions | 0 | 9 | 44 | 111 |
+| AI concurrency hours | 0.0h | 8.7h | 33.4h | 135.2h |
+| Interactive sessions | 0 | 9 | 42 | 111 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
 _Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
@@ -28,16 +28,16 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-7 | 898 | 1K | 975K | 106.2M | $332.02 | $1,434.40 | $0.00 |
+| claude-opus-4-7 | 786 | 1K | 839K | 94.1M | $281.89 | $1,271.68 | $0.00 |
 | gpt-5.5 | 1,976 | 12.1M | 512K | 151.3M | $79.56 | $408.75 | $358.26 |
 | gpt-5.4 | 86 | 348K | 11K | 1.9M | $1.78 | $3.64 | $6.81 |
-| **Total** | **2,960** | **12.5M** | **1.4M** | **259.5M** | **$413.36** | **$1,846.80** | **$365.07** |
+| **Total** | **2,848** | **12.5M** | **1.3M** | **247.5M** | **$363.23** | **$1,684.07** | **$365.07** |
 
-_278.8M total tokens processed. 93.1% cache hit rate._
+_265.5M total tokens processed. 93.2% cache hit rate._
 
-_$2,211.87 total saved ($1,846.80 caching + $365.07 model routing vs all-Opus)._
+_$2,049.15 total saved ($1,684.07 caching + $365.07 model routing vs all-Opus)._
 
-_Model savings are modest because ~93.1% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~93.2% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -78,5 +78,5 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-01 20:14 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-01 21:14 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
