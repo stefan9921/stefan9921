@@ -29,13 +29,13 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-7 | 758 | 1K | 821K | 89.9M | $270.64 | $1,214.61 | $0.00 |
-| gpt-5.5 | 2,456 | 13.1M | 639K | 196.2M | $95.60 | $529.95 | $432.26 |
+| gpt-5.5 | 2,455 | 13.1M | 639K | 196.2M | $95.58 | $529.84 | $432.20 |
 | gpt-5.4 | 86 | 348K | 11K | 1.9M | $1.78 | $3.64 | $6.81 |
-| **Total** | **3,300** | **13.5M** | **1.4M** | **288.1M** | **$368.02** | **$1,748.20** | **$439.07** |
+| **Total** | **3,299** | **13.5M** | **1.4M** | **288.1M** | **$368.00** | **$1,748.10** | **$439.01** |
 
 _307.1M total tokens processed. 93.8% cache hit rate._
 
-_$2,187.27 total saved ($1,748.20 caching + $439.07 model routing vs all-Opus)._
+_$2,187.12 total saved ($1,748.10 caching + $439.01 model routing vs all-Opus)._
 
 _Model savings are modest because ~93.8% of tokens are cache reads, where price differences between models are small._
 
