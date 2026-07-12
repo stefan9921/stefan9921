@@ -13,16 +13,18 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 0h | 0h | 0h | ~0h* |
-| User AI session hours | 0.0h | 0.0h | 0.0h | 51.4h |
-| AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 0.0h | 0.0h | 0.0h | 147.2h |
-| Interactive sessions | 0 | 0 | 0 | 119 |
-| Worker sessions | 0 | 0 | 0 | 0 |
+| Screen time (Mac) | unavailable | unavailable | unavailable | unavailable |
+| Interactive human attention | 0.0h | 0.0h | 0.0h | 50.4h |
+| Interactive AI generation | 0.0h | 0.0h | 0.0h | 95.8h |
+| Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
+| Worker/headless AI generation | 0.0h | 0.0h | 0.0h | 5.4h |
+| Additive observed work | 0.0h | 0.0h | 0.0h | 151.6h |
+| Interactive sessions | 0 | 0 | 0 | 125 |
+| Worker sessions | 0 | 0 | 0 | 60 |
 
-_Screen time from macOS display events, snapshotted daily. *365-day extrapolated (accumulating real data)._
+_Screen time from macos-knowledge-db; collection status: unavailable._
 
-_User AI session hours are attended interactive time measured from gaps between AI responses and the next user message; AI concurrency hours include attended time, AI generation, and background workers._
+_Human attention is unioned wall-clock time, so overlapping sessions are not double-counted. AI generation is additive machine work across sessions; it is not wall-clock concurrency._
 
 _AI session 365-day totals cover 60 days of local assistant session history (not extrapolated)._
 
@@ -65,5 +67,5 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-07-05 00:40 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-07-12 10:24 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
