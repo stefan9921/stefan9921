@@ -13,7 +13,7 @@
 
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Mac) | 4.8h | 41.3h | 139.2h | /Users/macbook20151954h* |
+| Screen time (Mac) | 12h | 35.2h | 143.4h | /Users/macbook20151764h* |
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 50.4h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 95.8h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -32,21 +32,19 @@ _AI session 365-day totals cover 60 days of local assistant session history (not
 
 ## AI Model Usage (all time)
 
-| Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| claude-opus-4-7 | 3,994 | 6K | 3.2M | 529.7M | $1,035.01 | $7,152.00 | $0.00 |
-| claude-opus-4-6 | 2,598 | 4K | 1.6M | 395.3M | $718.89 | $5,337.88 | $0.00 |
-| gpt-5.5 | 2,709 | 15.0M | 709K | 211.1M | $119.26 | $570.06 | $477.09 |
-| gpt-5.4 | 86 | 348K | 11K | 1.9M | $2.19 | $3.64 | $6.81 |
-| glm-5.1 | 12 | 94K | 1K | 250K | $0.37 | $0.68 | $1.54 |
-| gpt-5.3-chat-latest | 14 | 59K | 2K | 211K | $0.26 | $0.57 | $1.08 |
-| **Total** | **9,413** | **15.6M** | **5.6M** | **1,138.7M** | **$1,875.98** | **$13,064.82** | **$486.53** |
+| Model | Requests | Input | Output | Cache read | Cache write | Cache Hit-Rate % | Session Count | Session Hours |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| claude-opus-4-7 | 3,994 | 6K | 3.2M | 529.7M | 28.7M | 94.8% | 58 | 66.0h |
+| gpt-5.5 | 2,709 | 15.0M | 709K | 211.1M | 0 | 93.3% | 78 | — |
+| claude-opus-4-6 | 2,598 | 4K | 1.6M | 395.3M | 15.8M | 96.1% | 42 | 12.5h |
+| gpt-5.4 | 86 | 348K | 11K | 1.9M | 0 | 84.8% | 6 | 0.3h |
+| big-pickle | 68 | 34K | 17K | 2.2M | 114K | 93.7% | 2 | 0.2h |
+| gpt-5.3-chat-latest | 14 | 59K | 2K | 211K | 0 | 78.2% | 3 | 0.0h |
+| glm-5.1 | 12 | 94K | 1K | 250K | 0 | 72.5% | 2 | 0.0h |
+| openai/gpt-5.5 | 1 | 0 | 0 | 0 | 0 | 0.0% | 1 | 0.0h |
+| **Total** | **9,482** | **15.6M** | **5.6M** | **1,140.9M** | **44.7M** | **95%** | **185** | **—** |
 
-_1,207.0M total tokens processed. 94.5% cache hit rate._
-
-_$13,551.35 total saved ($13,064.82 caching + $486.53 model routing vs all-Opus)._
-
-_Model savings are modest because ~94.5% of tokens are cache reads, where price differences between models are small._
+_1,207.0M total tokens processed. 95% cache hit rate._
 <!-- STATS-END -->
 
 ## Projects
@@ -69,12 +67,14 @@ _Model savings are modest because ~94.5% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-08-01 14:46 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-06 03:54 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <div align="center">
+  <a href="https://commit-history.com/stefan9921?metric=total">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/stefan9921?theme=dark" />
     <img alt="stefan9921's commit history" src="https://commit-history.com/embed/stefan9921" />
   </picture>
+  </a>
 </div>
