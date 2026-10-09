@@ -1,0 +1,120 @@
+{
+  "schema": "aidevops.total-contributions/v1",
+  "user": "stefan9921",
+  "updated": "2026-10-09",
+  "through": "2026-10-08",
+  "metric": "GitHub contributionCalendar.totalContributions",
+  "total": 1429,
+  "months": [
+    {
+      "month": "2025-01",
+      "total": 1,
+      "cumulative": 1
+    },
+    {
+      "month": "2025-02",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2025-03",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2025-04",
+      "total": 0,
+      "cumulative": 1
+    },
+    {
+      "month": "2025-05",
+      "total": 3,
+      "cumulative": 4
+    },
+    {
+      "month": "2025-06",
+      "total": 0,
+      "cumulative": 4
+    },
+    {
+      "month": "2025-07",
+      "total": 46,
+      "cumulative": 50
+    },
+    {
+      "month": "2025-08",
+      "total": 36,
+      "cumulative": 86
+    },
+    {
+      "month": "2025-09",
+      "total": 5,
+      "cumulative": 91
+    },
+    {
+      "month": "2025-10",
+      "total": 0,
+      "cumulative": 91
+    },
+    {
+      "month": "2025-11",
+      "total": 1,
+      "cumulative": 92
+    },
+    {
+      "month": "2025-12",
+      "total": 23,
+      "cumulative": 115
+    },
+    {
+      "month": "2026-01",
+      "total": 2,
+      "cumulative": 117
+    },
+    {
+      "month": "2026-02",
+      "total": 59,
+      "cumulative": 176
+    },
+    {
+      "month": "2026-03",
+      "total": 164,
+      "cumulative": 340
+    },
+    {
+      "month": "2026-04",
+      "total": 232,
+      "cumulative": 572
+    },
+    {
+      "month": "2026-05",
+      "total": 256,
+      "cumulative": 828
+    },
+    {
+      "month": "2026-06",
+      "total": 174,
+      "cumulative": 1002
+    },
+    {
+      "month": "2026-07",
+      "total": 268,
+      "cumulative": 1270
+    },
+    {
+      "month": "2026-08",
+      "total": 101,
+      "cumulative": 1371
+    },
+    {
+      "month": "2026-09",
+      "total": 42,
+      "cumulative": 1413
+    },
+    {
+      "month": "2026-10",
+      "total": 16,
+      "cumulative": 1429
+    }
+  ]
+}

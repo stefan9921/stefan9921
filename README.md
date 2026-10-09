@@ -67,14 +67,20 @@ _1,207.0M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-10-09 00:16 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-10-09 02:18 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
+<!-- TOTAL-CONTRIBUTIONS-START -->
 <div align="center">
-  <a href="https://commit-history.com/stefan9921?metric=total">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://commit-history.com/embed/stefan9921?theme=dark" />
-    <img alt="stefan9921's commit history" src="https://commit-history.com/embed/stefan9921" />
-  </picture>
+  <a href="https://commit-history.com/stefan9921?metric=total" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/total-dark.svg" />
+      <img alt="stefan9921's cumulative total GitHub contributions" src="assets/contributions/total-light.svg" width="960" />
+    </picture>
   </a>
 </div>
+
+[Verify on commit-history.com](https://commit-history.com/stefan9921?metric=total) · [Chart data](assets/contributions/total.json)
+
+Includes commits, issues, pull requests, reviews, repositories, and restricted contributions. Refreshed daily through the prior UTC day; commit-history.com may use a different refresh cutoff. GitHub controls link navigation—Ctrl/Cmd-click opens verification in a new tab.
+<!-- TOTAL-CONTRIBUTIONS-END -->
