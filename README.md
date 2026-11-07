@@ -47,17 +47,13 @@ _AI session 365-day totals cover 60 days of local assistant session history (not
 _1,207.0M total tokens processed. 95% cache hit rate._
 <!-- STATS-END -->
 
+<!-- PROJECTS-START -->
 ## Projects
 
-- **[exterior-house-painting-dublin-dublin-2](https://github.com/stefan9921/exterior-house-painting-dublin-dublin-2)** -- Exterior House Painting Dublin - Next.js site
-- **[house-extension-dublin-dublin-2](https://github.com/stefan9921/house-extension-dublin-dublin-2)** -- House Extension Dublin Dublin 2 marketing site
-- **[external-insulation-dublin-dublin-2](https://github.com/stefan9921/external-insulation-dublin-dublin-2)** -- External Insulation Dublin Dublin 2 - Next.js site
-- **[attic-repair-dublin](https://github.com/stefan9921/attic-repair-dublin)** -- Attic repair Dublin — local trade site
-- **[sofa-cleaning-dublinv2](https://github.com/stefan9921/sofa-cleaning-dublinv2)** -- sofa cleaning dublin in dublin
+- **[ask](https://github.com/stefan9921/ask)** -- Ask AI redirect
 - **[rrb-site-template](https://github.com/stefan9921/rrb-site-template)** -- Config-driven Next.js 16 site template for rank-and-rent local SEO sites
-- **[roof-insulation-dublin-dublin](https://github.com/stefan9921/roof-insulation-dublin-dublin)** -- No description
-- **[marketing-agency-dublin](https://github.com/stefan9921/marketing-agency-dublin)** -- No description
-- **[donmodularv3](https://github.com/stefan9921/donmodularv3)** -- No description
+<!-- PROJECTS-END -->
+
 <!-- CONTRIBUTIONS-START -->
 <!-- CONTRIBUTIONS-END -->
 
@@ -67,7 +63,7 @@ _1,207.0M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-06 08:48 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-07 12:15 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
