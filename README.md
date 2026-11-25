@@ -14,7 +14,7 @@
 | Metric | Yesterday | Prior 7 Days | Prior 28 Days | Prior 365 Days |
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Mac) | unavailable | unavailable | unavailable | unavailable |
-| Input activity (Mac) | 11.5h | 32.7h | 32.7h | unavailable |
+| Input activity (Mac) | 5.4h | 36.7h | 74.8h | ~1923h* |
 | Interactive human attention | 0.0h | 0.0h | 0.0h | 50.4h |
 | Interactive AI generation | 0.0h | 0.0h | 0.0h | 95.8h |
 | Worker-classified human attention | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -25,7 +25,7 @@
 
 _Screen time from unavailable; collection status: unavailable._
 
-_Input activity from macos-input-activity:idle-cutoff-300s (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: ok, unavailable (fewer-than-7-sampled-days). Input sampling began 2026-11-10 (6.2 of 28 days sampled); earlier days are not counted._
+_Input activity from macos-input-activity:idle-cutoff-300s (time from each keyboard, mouse or trackpad input until 5 idle minutes); collection status: ok. Input sampling began 2026-11-10 (14.2 of 28 days sampled); earlier days are not counted. *365-day estimate uses sampled calendar coverage._
 
 _Periods are completed local calendar days ending at midnight; today is excluded._
 
@@ -66,7 +66,7 @@ _1,207.0M total tokens processed. 95% cache hit rate._
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-11-17 12:04 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-11-25 15:25 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
 
 <!-- TOTAL-CONTRIBUTIONS-START -->
